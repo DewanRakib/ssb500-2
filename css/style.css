@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.announcement {
+  background: green;
+  text-align: center;
+}
+
+.announcement p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 5px;
+}
+.logo img {
+  width: 150px;
+}
+
+nav {
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+}
+nav ul li a {
+  color: green;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 15px;
+  display: block;
+}
